@@ -15,7 +15,11 @@ const Input = styled.input`
   color: #e2e8f0;
   width: 100%;
   &:hover {
-    opacity: 80%;
+    background-color: #f8fafc;
+    border-color: #e6ecf2;
+    ::placeholder {
+      color: #a8b4c6;
+    }
   }
   &:focus {
     background: white;

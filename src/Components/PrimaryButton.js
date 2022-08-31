@@ -10,7 +10,7 @@ function PrimaryButton(props) {
     min-width: ${minWidth};
     color: white;
     &:hover {
-      opacity: 80%;
+      background: #629bf8;
     }
   `;
   return (
